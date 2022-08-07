@@ -60,7 +60,7 @@ a{
  }
 
 .navbar{
-    min-height: 21px;
+    min-height: 31px;
     padding:10px;
     width: 100%;
     background-color: white;
@@ -111,7 +111,7 @@ a{
 
 .toggle-button{
     position: absolute;
-    top: 0.75rem;
+    top: 1.2rem;
     right: 3rem;
     display: none;
     flex-direction: column;
@@ -121,7 +121,7 @@ a{
 }
 
 .toggle-button .bar{
-    height:3px;
+    height:4px;
     width: 100%;;
     background-color: black;
     border-radius: 10px;
