@@ -401,7 +401,7 @@ textarea, input{
 
 
 
- footer{
+ .footer{
     height: 100px;
     display: flex;
     justify-content: center;
