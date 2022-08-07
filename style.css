@@ -28,7 +28,7 @@ a{
 
 @media (max-width: 650px) {
     :root{
-        --fs-lg: 1.2 rem;
+        --fs-lg: 1.43 rem;
         --fs-xl: 1.5 rem;
         --fs-xl1: 1.7rem;
     }
