@@ -50,7 +50,7 @@ a{
     min-height: 21px;
     padding:10px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     box-shadow: 1px 1px 6px rgb(70, 69, 69);
     position: fixed;
     z-index: 1;
@@ -412,6 +412,8 @@ textarea, input{
     height: 100px;
     display: flex;
     justify-content: center;
+    background-color: black;
+    color: white;
     
 
  }
