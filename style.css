@@ -401,24 +401,6 @@ textarea, input{
 
 
 
- .footer{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    margin-top: 0;
-    
-
- }
-
- .icon_container{
-    font-size: 2rem;
- }
- i{
-   
-    color:white;
- }
 
 
 
