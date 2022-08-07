@@ -407,7 +407,7 @@ textarea, input{
     justify-content: center;
     background-color: black;
     color: white;
-
+    margin-top: 0;
     
 
  }
@@ -416,7 +416,7 @@ textarea, input{
     font-size: 2rem;
  }
  i{
-    margin: 20px;
+   
     color:white;
  }
 
