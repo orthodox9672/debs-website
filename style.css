@@ -7,7 +7,7 @@
 html,body
 {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
@@ -312,7 +312,6 @@ text-align: center;
 /*   ///////////////////////////////CONTACT SECTION////////////////////////////////////*/
 
 .contacts{
-    min-height: 50vh;
     background-image: linear-gradient( white,#f1f1f1 50%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -325,7 +324,6 @@ text-align: center;
     flex-direction: row;
     justify-content: space-evenly;
     width: 80%;
-    min-height: 100vh;
     margin: 0 auto;
     
 }
@@ -333,6 +331,7 @@ text-align: center;
 form{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 } 
 
 input{
