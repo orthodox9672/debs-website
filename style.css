@@ -135,7 +135,7 @@ a{
     border-radius: 10px;
 }
 
-@media (max-width:750px) {
+@media (max-width:850px) {
     .toggle-button{
         display: flex;
     }
