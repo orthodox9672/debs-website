@@ -93,6 +93,7 @@ a{
     justify-content: flex-end;
     align-items: center;
     margin: 0;
+    padding-inline-start: 0;
 }
 
 .nav_menu a{
