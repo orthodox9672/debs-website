@@ -62,6 +62,7 @@ a{
 
 /*NAVIGATION BAR /////////////////////////////////////////////////////////////////*/
 
+
 .nav_menu li{
     list-style: none;
     margin-right: 20px ;
@@ -95,27 +96,40 @@ a{
 }
 
 .nav_menu a{
+   position: relative;
    padding: 7px; 
    font-size: var(--fs-lg);
   
 } 
 
-.nav_menu.active{
-    display: flex;
+
+
+
+.nav_menu a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: green;
+    transition: width 250ms ease-in;
 }
 
 
-.nav_menu{
-   padding-right: 15px;
+.nav_menu a:hover::before{
+    width: 100%;
 }
+
+
+
+
 
 .content {
     padding: 16px;
   }
 
-.nav_menu a:hover{
-    border-bottom: 2px solid black;
-}
+
 
 .toggle-button{
     position: absolute;
@@ -126,6 +140,7 @@ a{
     justify-content: space-between;
     width:31px;
     height:21px;
+    
 }
 
 .toggle-button:hover{
@@ -140,16 +155,28 @@ a{
     border-radius: 10px;
 }
 
+
 @media (max-width:1000px) {
     .toggle-button{
         display: flex;
     }
     .nav_menu{
-       display: none;
+       position: fixed;
+       left:-150%;
+       top:51px;
+       flex-direction: column;
+       background-color: white;
+       box-shadow: 2px 3px 5px rgb(99, 99, 99);
+       width: 100%;
+       transition: 0.3s;
     }
-    .nav_menu{
-        flex-direction: column;
+
+    .nav_menu.active{
+        
+        left:0;
     }
+
+
     .nav_menu li{
         padding: 5px;
     }
